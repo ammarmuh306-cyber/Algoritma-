@@ -1,0 +1,114 @@
+# Algoritma-
+# ARRAY 
+
+mahasiswa_list = ["masriadi", "rian", "ibrahim", "adit", "resyah"]
+
+print("Daftar Nama Mahasiswa:", mahasiswa_list)
+
+# Mengakses 
+print("Mahasiswa pertama:", mahasiswa_list[0])
+
+# Menambah 
+mahasiswa_list.append("mahmud")
+print("Setelah menambah mahmud:", mahasiswa_list)
+
+# Menghapus 
+mahasiswa_list.remove("masriadi")
+print("Setelah menghapus masriadi:", mahasiswa_list)
+
+# DICTIONARY 
+
+mahasiswa = {
+    "nama": "muh ammar s",
+    "nim": "D0425511",
+    "jurusan": "Sistem Informasi",
+    "kelas": "Sisfo B",
+    "angkatan": 2025,
+    "alamat": "mamuju, Sulawesi Barat",
+
+    "nilai": {
+        "algoritma_pemrograman": 99,
+        "struktur_data": 92,
+        "basis_data": 30,
+        "pemrograman_python": 80
+    },
+
+    "mata_kuliah_diambil": [
+        "Algoritma Pemrograman",
+        "Basis Data",
+        "Pemrograman Python",
+        "Kalkulus Informatika"
+    ]
+}
+
+# Menampilkan data
+print("\nData Mahasiswa:", mahasiswa)
+
+# Mengakses data
+print("Nama:", mahasiswa["nama"])
+print("Kelas:", mahasiswa["kelas"])
+print("Nilai Python:", mahasiswa["nilai"]["pemrograman_python"])
+
+# Update nilai
+mahasiswa["nilai"]["pemrograman_python"] = 80
+print("Nilai Python Setelah Update:", mahasiswa["nilai"]["pemrograman_python"])
+
+# Menambah data baru
+mahasiswa["status"] = "Aktif"
+print("Setelah menambah status:", mahasiswa)# ARRAY 
+
+mahasiswa_list = ["masriadi", "rian", "ibrahim", "adit", "resyah"]
+
+print("Daftar Nama Mahasiswa:", mahasiswa_list)
+
+# Mengakses 
+print("Mahasiswa pertama:", mahasiswa_list[0])
+
+# Menambah 
+mahasiswa_list.append("mahmud")
+print("Setelah menambah mahmud:", mahasiswa_list)
+
+# Menghapus 
+mahasiswa_list.remove("masriadi")
+print("Setelah menghapus masriadi:", mahasiswa_list)
+
+# DICTIONARY 
+
+mahasiswa = {
+    "nama": "muh ammar s",
+    "nim": "D0425511",
+    "jurusan": "Sistem Informasi",
+    "kelas": "Sisfo B",
+    "angkatan": 2025,
+    "alamat": "mamuju, Sulawesi Barat",
+
+    "nilai": {
+        "algoritma_pemrograman": 99,
+        "struktur_data": 92,
+        "basis_data": 30,
+        "pemrograman_python": 80
+    },
+
+    "mata_kuliah_diambil": [
+        "Algoritma Pemrograman",
+        "Basis Data",
+        "Pemrograman Python",
+        "Kalkulus Informatika"
+    ]
+}
+
+# Menampilkan data
+print("\nData Mahasiswa:", mahasiswa)
+
+# Mengakses data
+print("Nama:", mahasiswa["nama"])
+print("Kelas:", mahasiswa["kelas"])
+print("Nilai Python:", mahasiswa["nilai"]["pemrograman_python"])
+
+# Update nilai
+mahasiswa["nilai"]["pemrograman_python"] = 80
+print("Nilai Python Setelah Update:", mahasiswa["nilai"]["pemrograman_python"])
+
+# Menambah data baru
+mahasiswa["status"] = "Aktif"
+print("Setelah menambah status:", mahasiswa)
